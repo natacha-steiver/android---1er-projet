@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="Trucs et astuces">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/activity_main_drawer_rentabilite"
+
+
+                    android:title="Devenez rentable" />
+                <item
+                    android:id="@+id/activity_main_drawer_burnout"
+
+                    android:title="Evitez le burn-out" />
+                <item
+                    android:id="@+id/activity_main_drawer_conquete"
+
+                    android:title="Libérez-vous" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

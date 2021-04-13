@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <TableLayout
+            android:id="@+id/v1"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+
+
+            >
+            <TableRow android:layout_gravity="center_horizontal">
+
+                <android.support.v7.widget.AppCompatTextView
+                    app:theme="@style/title1"
+                    android:padding="25dp"
+
+                    android:id="@+id/title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollHorizontally="false"
+                    android:text="@string/title2"
+                    />
+
+            </TableRow>
+            <TableRow android:layout_gravity="center_horizontal">
+                <ImageView
+                    android:layout_width="600dp"
+                    android:layout_height="600dp"
+                    android:id="@+id/img"
+                    android:src="@drawable/men"
+                    />
+            </TableRow>
+            <TableRow android:layout_gravity="center_horizontal"
+
+                >
+
+
+                <android.support.v7.widget.AppCompatTextView
+                    app:theme="@style/Text"
+                    android:padding="25dp"
+
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollHorizontally="false"
+                    android:text="@string/text1"
+                    />
+
+            </TableRow>
+        </TableLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout >
